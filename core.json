@@ -1,0 +1,218 @@
+[
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "cd03f626-030a-4e86-b0d4-4bbd6cfa0fda",
+    "public_id": "5e42dd3e-484e-4a1d-9b9a-3bef0aadc2c0",
+    "file": "images/5e42dd3e-484e-4a1d-9b9a-3bef0aadc2c0",
+    "description": "A",
+    "uploaded_on": "2024-08-16T18:07:09.599Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "24c4e3f1-84dd-492b-9b04-700dcd7599b4",
+    "public_id": "4f6776c9-900c-4387-a49f-155ae01df282",
+    "file": "images/4f6776c9-900c-4387-a49f-155ae01df282.png",
+    "description": "foto do github",
+    "uploaded_on": "2024-10-02T19:52:28.031Z"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "nome": "Arquiteto",
+    "simbolo": ""
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 2,
+  "fields": {
+    "nome": "Jardineiro",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 3,
+  "fields": {
+    "nome": "Bába",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 4,
+  "fields": {
+    "nome": "Pedreiro",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 5,
+  "fields": {
+    "nome": "Encanador",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 6,
+  "fields": {
+    "nome": "Pintor",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 7,
+  "fields": {
+    "nome": "Limpador de Vidro",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 8,
+  "fields": {
+    "nome": "Diarista",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 9,
+  "fields": {
+    "nome": "Engenheiro",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 10,
+  "fields": {
+    "nome": "Eletricista",
+    "simbolo": null
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$3UASVRfnCnaeFfvZSnQH1Q$tDhaD0/jqYC4S6w54ocZwyEXfBDgwifcQ8oEQ2FQSB0=",
+    "last_login": "2024-11-25T14:52:20.399Z",
+    "is_superuser": true,
+    "passage_id": "324321544235435",
+    "categoria": 1,
+    "cpf": 123,
+    "descricao": null,
+    "email": "a@a.com",
+    "foto": 1,
+    "capa": null,
+    "is_staff": true,
+    "is_active": true,
+    "name": "Superusuário",
+    "tipo": 3,
+    "publicacao": "0",
+    "publicacaoFoto": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$HbIRnrWyEpuBB78z0wr7pU$/V3/U1e6OMDJO/66w0aCj8zvnyR6iM4YoGrkhc2ZK+E=",
+    "last_login": null,
+    "is_superuser": false,
+    "passage_id": "123",
+    "categoria": null,
+    "cpf": 1232,
+    "descricao": null,
+    "email": "robertinho123@gmail.com",
+    "foto": null,
+    "capa": null,
+    "is_staff": false,
+    "is_active": true,
+    "name": "Roberto",
+    "tipo": 2,
+    "publicacao": "0",
+    "publicacaoFoto": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$hwappm08ktZED3JFHwqwMW$ON/uYOnCKPMkAduf7eJuzxh90OLAw/uM5CAjnz/jbeE=",
+    "last_login": null,
+    "is_superuser": true,
+    "passage_id": "1122",
+    "categoria": null,
+    "cpf": 11233,
+    "descricao": null,
+    "email": "douglas@gmail.com",
+    "foto": 2,
+    "capa": null,
+    "is_staff": false,
+    "is_active": true,
+    "name": "Douglas",
+    "tipo": 1,
+    "publicacao": "0",
+    "publicacaoFoto": null,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.trabalho",
+  "pk": 1,
+  "fields": {
+    "DataInicio": "2024-12-19",
+    "prazo": "2025-01-31",
+    "DataTermino": "2024-12-25",
+    "preco": "250.5",
+    "nome": "1",
+    "estado": 1,
+    "trabalhadorAvaliacao": "0.0",
+    "clienteAvaliacao": "0.0"
+  }
+},
+{
+  "model": "core.trabalho",
+  "pk": 2,
+  "fields": {
+    "DataInicio": "2024-08-13",
+    "prazo": "2024-08-13",
+    "DataTermino": "2024-08-13",
+    "preco": "250.5",
+    "nome": "2",
+    "estado": 1,
+    "trabalhadorAvaliacao": "0.0",
+    "clienteAvaliacao": "0.0"
+  }
+},
+{
+  "model": "core.trabalho",
+  "pk": 3,
+  "fields": {
+    "DataInicio": "2024-08-14",
+    "prazo": "2024-08-14",
+    "DataTermino": "2024-08-14",
+    "preco": "250.5",
+    "nome": "2",
+    "estado": 1,
+    "trabalhadorAvaliacao": "0.0",
+    "clienteAvaliacao": "0.0"
+  }
+}
+]
