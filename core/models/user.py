@@ -65,7 +65,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     name = models.CharField(max_length=255)
     tipo = models.IntegerField(choices=Tipo.choices, default=3)
-    publicacao = models.CharField(max_length=300)
+    publicacao = models.CharField(max_length=300, null=True, blank=True)
     publicacaoFoto = models.ForeignKey(
         Image, related_name="+", on_delete=models.PROTECT, null=True, blank=True, default=None
     )
