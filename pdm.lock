@@ -5,7 +5,7 @@
 groups = ["default", "dev", "format"]
 strategy = ["inherit_metadata"]
 lock_version = "4.4.1"
-content_hash = "sha256:b0d213fb38c4c49a77b69f8075cd26c88a3db38297dca31f88fec5c014113ad9"
+content_hash = "sha256:6124c8ac4dc29ec74da94024c02bd6d39178fbac4ed7e69f0460034629f32907"
 
 [[package]]
 name = "asgiref"
