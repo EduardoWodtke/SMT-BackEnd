@@ -47,6 +47,7 @@ class User(AbstractBaseUser, PermissionsMixin):
         CLIENTE = 1, "Cliente"
         TRABALHADOR = 2, "Trabalhador"
         ADM = 3, "Admin"
+
     categoria = models.ForeignKey(Categoria, on_delete=models.PROTECT, related_name="autores", null=True, blank=True)
     cpf = models.IntegerField(null=True, blank=True)
     descricao = models.CharField(max_length=200, null=True, blank=True)
