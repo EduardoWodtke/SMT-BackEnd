@@ -22,4 +22,4 @@ class Trabalho(models.Model):
     clienteAvaliacao = models.DecimalField(max_digits=3, decimal_places=1)
 
     def __str__(self):
-        return f"({self.id}) | nome: {self.nome.name or ''} | Iniciou-se: {self.DataInicio} | Prazo : {self.prazo} | Terminou em: {self.DataTermino}"
+        return f"({self.id}) | nome: {self.nome or ''} | Iniciou-se: {self.DataInicio} | Prazo : {self.prazo} | Terminou em: {self.DataTermino}"

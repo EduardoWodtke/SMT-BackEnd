@@ -53,7 +53,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     cpf = models.IntegerField(null=True, blank=True)
     descricao = models.CharField(max_length=200, null=True, blank=True)
     email = models.EmailField(max_length=255, unique=True)
-    # favorito = models.ManyToManyField("core.User", related_name="favoritos", related_query_name="fas")
     foto = models.ForeignKey(
         Image,
         related_name="+",
