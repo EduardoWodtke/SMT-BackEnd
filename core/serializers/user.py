@@ -6,7 +6,7 @@ from core.models import User
 class TrabalhadorPequeno(ModelSerializer):
     class Meta:
         model = User
-        fields = ("foto", "name", "categoria", "tipo")
+        fields = ("foto", "name", "categoria", "tipo", "id")
         depth = 1
 
 
