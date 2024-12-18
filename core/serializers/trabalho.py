@@ -12,7 +12,7 @@ class TrabalhoSerializer(ModelSerializer):
 class HistoricoTrabalhoSerializer(ModelSerializer):
     class Meta:
         model = Trabalho
-        fields = ("nome", "DataTermino", "estado", "preco")
+        fields = ("nome", "DataTermino", "estado")
 
 
 class TrabalhadorAvaliacaoSerializer(ModelSerializer):
